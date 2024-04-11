@@ -127,7 +127,6 @@ struct multiplicityPbPb {
 
       histos.fill(HIST("EtaZvtxTracks"), track.eta(), collision.posZ());
       histos.fill(HIST("PhiEtaTracks"), track.phi(), track.eta());
-
     }
 
     histos.fill(HIST("Multiplicity"), trackCounter);
